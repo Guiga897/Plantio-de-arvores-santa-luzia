@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: url('DALL·E\ 2024-09-20\ 07.15.25\ -\ A\ beautiful\ landscape\ with\ rolling\ green\ hills\ and\ trees\ scattered\ across\ the\ terrain.\ The\ sky\ is\ a\ stunning\ shade\ of\ blue\,\ clear\ and\ bright\,\ with\ sof.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.text-center {
+    width: 40%;
+    margin: 0 auto;
+    height: auto;
+    color: #fff;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image-side {
+    width: 20%;
+    text-align: center;
+}
+
+.image-side img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.caption {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    .text-center {
+        width: 60%;
+        font-size: 20px;
+    }
+    .image-side {
+        display: none;
+    }
+}
